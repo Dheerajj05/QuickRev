@@ -1,0 +1,36 @@
+.login-container{
+  background-color: #FEFCF8;
+}
+
+.login-header{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 39px;
+margin-top: 20%;
+}
+.login-sub-header{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+color: rgba(37, 37, 37, 0.5);
+}
+
+.login-sub-header1{
+  color: #252525;
+}
+.login-footer{
+  
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+color: #252525;
+}
+
+.login-sub-footer{
+  color: #0275D8;
+}

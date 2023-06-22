@@ -1,0 +1,36 @@
+.signup-container{
+    background-color: #FEFCF8;
+  }
+  
+  .signup-header{
+    font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  margin-top: 20%;
+  }
+  .signup-sub-header{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+  color: rgba(37, 37, 37, 0.5);
+  }
+  
+  .signup-sub-header1{
+    color: #252525;
+  }
+  .signup-footer{
+    
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  color: #252525;
+  }
+  
+  .signup-sub-footer{
+    color: #0275D8;
+  }
