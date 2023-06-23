@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const URL = "http://localhost:8000";
+const URL = "https://quickrev.onrender.com";
 export const CreatePost = async (post) => {
   try {
     return await axios.post(`${URL}/home/postz`, post);
