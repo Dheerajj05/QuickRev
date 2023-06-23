@@ -9,7 +9,7 @@ const Login = () => {
   const [credential, setCredential] = useState({ username: "", password: "" });
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const response = await fetch("http://localhost:8000/user/login", {
+    const response = await fetch("https://quickrev.onrender.com/user/login", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -37,7 +37,7 @@ const Login = () => {
   };
 
   const getUserData = async (token) => {
-    const response = await fetch("http://localhost:8000/user/getuser", {
+    const response = await fetch("https://quickrev.onrender.com/user/getuser", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

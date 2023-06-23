@@ -15,7 +15,7 @@ const Signup = () => {
     // destructure credential
     const { username, password } = credential;
     // making an fetch api call which return promise.
-    const response = await fetch("http://localhost:8000/user/create", {
+    const response = await fetch("https://quickrev.onrender.com/user/create", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
