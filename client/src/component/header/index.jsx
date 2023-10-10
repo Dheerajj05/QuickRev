@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import './header.css'
 const Header = () => {
   const handleLogout = () => {
     localStorage.clear();
@@ -6,29 +7,26 @@ const Header = () => {
   const named = JSON.parse(localStorage.getItem("userData")).user.username;
   return (
     <>
-      <nav className="navbar navbar-inverse navbar-expand-lg  navbar-dark bg-dark">
+      <nav className="navbar navbar-inverse navbar-expand-lg fixed-top navbar-dark bg-dark">
         <Link to="/home" className="navbar-brand">
-          {/* <img
-            src="https://img.icons8.com/color/48/000000/address-book.png"
-            alt="im"
-          /> */}
+
           QuickRev
         </Link>
         <div className="navbar container-fluid">
           <ul className="navbar-nav">
             <li className="nav-item active">
-              <Link to="motivation" className="nav-link">
-                <i className="fab fa-angellist">&nbsp;Need Motivation</i>
+              <Link to="motivation" className="nav-link " >
+                <i className="fab fa-angellist text-color">&nbsp;Need Motivation</i>
               </Link>
             </li>
             <li className="nav-item">
               <Link to="/about" className="nav-link">
-                <i className="fas fa-address-card">&nbsp;About</i>
+                <i className="fas fa-address-card text-color">&nbsp;About</i>
               </Link>
             </li>
             <li className="nav-item">
               <Link to="/contact" className="nav-link">
-                <i className="fas fa-id-badge">&nbsp;Contact</i>
+                <i className="fas fa-id-badge text-color">&nbsp;Contact</i>
               </Link>
             </li>
           </ul>

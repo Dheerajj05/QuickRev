@@ -39,19 +39,13 @@ const Contact = () => {
 
                 <div className="row mb-5">
                   <div className="mb-5 mb-sm-4 col-md-4">
-                    <img src={""} alt="image" style={{ width: "100%" }} />
+                    {/* <img src={""} alt="image" style={{ width: "100%" }} /> */}
                   </div>
                   <div className="col-md-8">
                     <div className="about__text mb-5 mb-sm-4 mb-md-4">
                       <h3 style={{ color: "blue" }}>I'm Dheeraj</h3>
                       <p className="m-0" style={{ color: "black" }}>
-                        am a hard working, honest individual. I am a good
-                        timekeeper, always willing to learn new skills. I am
-                        friendly, helpful and polite, have a good sense of
-                        humour. I am able to work independently in busy
-                        environments and also within a team setting. I am
-                        outgoing and tactful, and able to listen effectively
-                        when solving problems.
+                      I am a diligent and reliable individual with a strong work ethic. Punctuality is one of my strengths, and I am consistently eager to acquire new skills. I am known for my friendly, helpful, and courteous demeanor, and I have a keen sense of humor. Whether working independently in a fast-paced environment or collaboratively within a team, I thrive in diverse settings. I possess excellent communication skills, allowing me to be both outgoing and diplomatic, and I am an attentive listener when it comes to problem-solving.
                       </p>
                     </div>
                     <div className="about__skills">
@@ -79,7 +73,7 @@ const Contact = () => {
                                 React
                               </h4>
                               <p className="m-0" style={{ color: "black" }}>
-                                6+ months of experience in React which is a
+                                1+ years of experience in React which is a
                                 library for building composable user interfaces.
                                 It encourages the creation of reusable UI
                                 components, which present data that changes over
@@ -194,19 +188,19 @@ const Contact = () => {
 
                     <div className="mb-4 mb-md-0 pl-sm-3 p-md-0 col-sm-6 col-md-3">
                       <div className="media">
-                        <img src="https://img.icons8.com/external-justicon-flat-justicon/64/000000/external-player-sport-avatar-justicon-flat-justicon.png" />
+                        <img src="https://img.icons8.com/?size=1x&id=yVehj759sK2y&format=png" />
                         <div className="media-body">
                           <p
                             className="data-number m-0 font-weight-bold"
                             style={{ color: "black" }}
                           >
-                            178
+                            100+
                           </p>
                           <p
                             className="m-0 text-uppercase"
                             style={{ color: "black" }}
                           >
-                            Badminton Wins
+                            Basketball Wins
                           </p>
                         </div>
                       </div>

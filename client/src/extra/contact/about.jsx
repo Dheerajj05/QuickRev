@@ -76,7 +76,7 @@ const About = () => {
                       <div className="col-lg-12">
                         <button
                           type="submit"
-                          className="btn btn-danger-gradiant mt-3 text-white border-0 px-3 py-2"
+                          className="btn btn-primary mt-3 text-white border-0 px-3 py-2"
                         >
                           <span> SUBMIT</span>
                         </button>
