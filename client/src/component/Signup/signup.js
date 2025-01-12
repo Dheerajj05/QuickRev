@@ -43,17 +43,17 @@ const Signup = () => {
   };
 
   return (
-    <>
-      <div className="container-fluid vh-100 signup-container">
+    <div className="signup-container">
+      <div className="container-fluid vh-100" style={{ maxWidth: "1440px" }}>
         <div className="row">
-          <div className="col">
+          <div className="col-md-6 d-none d-md-block">
             <img
               className="img-fluid py-5 px-5"
               src={SignupImage}
               alt="signup"
             />
           </div>
-          <div className="col">
+          <div className="col-md-6">
             <div className="signup-header text-center">Sign up</div>
             <div className="signup-sub-header text-center mt-2">
               Please provide the required information to{" "}
@@ -68,7 +68,7 @@ const Signup = () => {
               to log in and access
             </div>
             <div className="row justify-content-center">
-              <Form.Group className="mb-3 w-50">
+              <Form.Group className="mb-3 col-12 col-sm-6">
                 <Form.Control
                   size="lg"
                   type="text"
@@ -81,7 +81,7 @@ const Signup = () => {
               </Form.Group>
             </div>
             <div className="row justify-content-center">
-              <Form.Group className="mb-3 w-50 ">
+              <Form.Group className="mb-3 col-12 col-sm-6">
                 <Form.Control
                   size="lg"
                   type="password"
@@ -93,11 +93,11 @@ const Signup = () => {
                 />
               </Form.Group>
             </div>
-            <div className="row justify-content-center">
+            <div className="row justify-content-center px-2">
               <button
                 type="button"
                 onClick={handleSubmit}
-                class="btn btn-primary w-50 rounded py-2"
+                class="btn btn-primary col-12 col-sm-6 rounded py-2"
               >
                 Sign up
               </button>
@@ -111,7 +111,7 @@ const Signup = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

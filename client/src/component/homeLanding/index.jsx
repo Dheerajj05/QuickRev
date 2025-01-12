@@ -11,7 +11,7 @@ const Home = () => {
       <Header />
       <Banner />
       <div>
-        <div className="row">
+        <div className="row mx-0">
           <div className="col col-md-3 col-sm-4 col-12">
             <Category />
           </div>
