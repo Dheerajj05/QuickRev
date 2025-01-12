@@ -54,15 +54,16 @@ const Login = () => {
       alert("Invalid credential");
     }
   };
+  
 
   return (
-    <>
-      <div className="container-fluid vh-100 login-container">
-        <div className="row">
-          <div className="col">
+    <div className="login-container">
+      <div className="container-fluid vh-100 " style={{ maxWidth: "1440px" }}>
+        <div className="row justify-content-center" >
+          <div className="col-md-6 d-none d-md-block">
             <img className="img-fluid py-5 px-5" src={LoginImage} alt="Login" />
           </div>
-          <div className="col">
+          <div className="col-md-6">
             <div className="login-header text-center">Login</div>
             <div className="login-sub-header text-center mt-2">
               <span className="login-sub-header1">Welcome back!</span> Please
@@ -73,7 +74,7 @@ const Login = () => {
               your account.
             </div>
             <div className="row justify-content-center">
-              <Form.Group className="mb-3 w-50">
+              <Form.Group className="mb-3 col-12 col-sm-6">
                 <Form.Control
                   size="lg"
                   type="text"
@@ -84,7 +85,7 @@ const Login = () => {
               </Form.Group>
             </div>
             <div className="row justify-content-center">
-              <Form.Group className="mb-3 w-50 ">
+              <Form.Group className="mb-3 col-12 col-sm-6">
                 <Form.Control
                   size="lg"
                   type="password"
@@ -94,8 +95,8 @@ const Login = () => {
                 />
               </Form.Group>
             </div>
-            <div className="row justify-content-center">
-              <button type="button" onClick={handleSubmit} class="btn btn-primary w-50 rounded py-2">
+            <div className="row justify-content-center px-2">
+              <button type="button" onClick={handleSubmit} class="btn btn-primary col-12 col-sm-6 rounded py-2">
                 Log in
               </button>
             </div>
@@ -103,7 +104,7 @@ const Login = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

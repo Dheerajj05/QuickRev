@@ -13,7 +13,7 @@ const About = () => {
   return (
     <>
       <Header />
-      <div className="contact3 py-3" style={{ marginTop: "4px" }}>
+      <div className="contact3 py-5" style={{ marginTop: "4px" }}>
         <div className="row no-gutters">
           <div className="container">
             <div className="row">
@@ -33,7 +33,7 @@ const About = () => {
                     Quick Contact
                   </h1>
                   <form className="mt-4" onSubmit={handleSubmit}>
-                    <div className="row">
+                    <div className="row px-5 mx-0">
                       <div className="col-lg-12">
                         <div className="form-group mt-2">
                           <input

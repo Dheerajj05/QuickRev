@@ -37,7 +37,9 @@ const Post = ({ post }) => {
         />
         <div className="card-body">
           <p style={{ color: "red", textDecoration: "black" }}>{post.title}</p>
-          <p style={{ textDecoration: "black" }}>{post.description}</p>
+          <p style={{ textDecoration: "black" }}>  {post.description.length > 40 
+    ? `${post.description.substring(0, 80)}...` 
+    : post.description}</p>
           <p style={{ textDecoration: "black" }}>
             {new Date(post.currentdata).toDateString()}
           </p>
